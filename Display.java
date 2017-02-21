@@ -6,7 +6,6 @@
 import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
-
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -169,7 +168,6 @@ public class Display implements MouseListener, ActionListener{
 	Timer timer = new Timer(mySlider.getValue(), timerlistener);
 	
 	
-
 	public static void main(String[] args) {
 		new Display();
 	}
