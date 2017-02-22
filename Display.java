@@ -15,7 +15,7 @@ import java.awt.event.MouseEvent;
 
 public class Display implements MouseListener, ActionListener{
 
-	private Rules rulesForGame = new Rules(200,200);
+	private Rules rulesForGame = new Rules(100,100);
 	public static boolean color = false;
 	
 	//the frame that holds everything
